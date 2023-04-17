@@ -89,7 +89,7 @@ body {
   body,
   title,
   nav {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 @media (min-width: 1200px) {
@@ -108,12 +108,13 @@ body {
   body,
   title,
   nav {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
 .navbar {
   background-color: #000066 !important;
+  padding: 0em 1em;
 }
 .navbar .navbar-toggler {
   background-color: white !important;
@@ -137,22 +138,15 @@ body {
   color: yellow !important;
 }
 
-.page-footer {
-  background-color: #0066ff !important;
-}
-#main_footer {
+footer {
   background-color: #000066 !important;
   color: #fff;
+  margin: 1em 0em;
+  padding: 0em 1em;
 }
-#app footer {
-  background-color: #006;
-  color: #000;
-}
+
 #main_heading {
   padding: 0 5px 0 5px;
-}
-#app footer p {
-  color: #fff;
 }
 
 h1,
@@ -228,4 +222,19 @@ div.fixed {
 }
 .bg-lighter {
   background-color: rgb(0, 0, 0, 0.4);
+}
+
+ol,
+ul {
+  margin-left: 1.2em;
+  padding-left: 0em;
+}
+
+.list-none {
+  list-style: none;
+}
+
+.card {
+  margin: 0rem 0rem;
+  padding: 0rem 0rem;
 }
