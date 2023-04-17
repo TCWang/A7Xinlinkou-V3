@@ -29,8 +29,9 @@ body {
   h6 {
     font-size: 0.8rem;
   }
-  body {
-    font-size: 0.8rem;
+  body,
+  title {
+    font-size: 0.9rem;
   }
 }
 @media (min-width: 544px) {
@@ -44,9 +45,10 @@ body {
   }
   h5,
   h6 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
-  body {
+  body,
+  title {
     font-size: 0.8rem;
   }
 }
@@ -63,7 +65,8 @@ body {
   h6 {
     font-size: 1rem;
   }
-  body {
+  body,
+  title {
     font-size: 1rem;
   }
 }
@@ -80,8 +83,9 @@ body {
   h6 {
     font-size: 1rem;
   }
-  body {
-    font-size: 1rem;
+  body,
+  title {
+    font-size: 1.1rem;
   }
 }
 @media (min-width: 1200px) {
@@ -97,8 +101,9 @@ body {
   h6 {
     font-size: 1.1rem;
   }
-  body {
-    font-size: 1rem;
+  body,
+  title {
+    font-size: 1.2rem;
   }
 }
 
