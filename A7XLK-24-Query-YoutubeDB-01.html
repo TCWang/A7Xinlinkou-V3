@@ -60,8 +60,8 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-home"></i>環境
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false"> <i class="fas fa-home"></i>環境
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="index.html">網站公告</a>
@@ -73,9 +73,8 @@
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
-							class="fas fa-briefcase"></i>交流 </a>
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false"> <i class="fas fa-briefcase"></i>交流 </a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="A7XLK-51-BulletinBoard.html">A7公告欄</a>
 						<a class="dropdown-item" href="A7XLK-52-VillageRepresentative.html">里長交流</a>
@@ -86,9 +85,8 @@
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
-							class="fas fa-briefcase"></i>服務 </a>
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false"> <i class="fas fa-briefcase"></i>服務 </a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="A7XLK-21-CommunityService.html">社區服務</a>
 						<a class="dropdown-item" href="A7XLK-22-PublicService.html">公用事業</a>
@@ -100,9 +98,8 @@
 				</li>
 
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
-							class="fas fa-utensils"></i>餐飲</a>
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false"> <i class="fas fa-utensils"></i>餐飲</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="A7XLK-31-Restaurant.html">餐廳推薦</a>
 						<a class="dropdown-item" href="A7XLK-32-RestaurantA7.html">社區小吃</a>
@@ -114,9 +111,8 @@
 
 
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
-							class="fas fa-shopping-cart"></i>購物</a>
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false"> <i class="fas fa-shopping-cart"></i>購物</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="A7XLK-41-OnlineShopping.html">網路郵購</a>
 						<a class="dropdown-item" href="A7XLK-44-DepartmentStore.html">百貨購物</a>
@@ -160,30 +156,30 @@
 					<form v-if="!editingNote" @submit.prevent="storeNote">
 						<div class="form-group row">
 							<label for="inputName" class="col-3 input-group-prepend">提報者</label>
-							<input type="text" class="col-9 form-control-plaintext" id="inputName"
-								v-model="newNote.name" placeholder="請輸入提報者">
+							<input type="text" class="col-9 form-control-plaintext" id="inputName" v-model="newNote.name"
+								placeholder="請輸入提報者">
 						</div>
 
 						<fieldset class="form-group row">
 							<label for="inputWho" class="col-sm-3 input-group-prepend">你是？</label>
 							<div class="col-sm-6">
 								<div class="form-check">
-									<input class="form-check-input" type="radio" name="gridRadios1" id="inputWho1"
-										value="社區住戶" v-model="newNote.who">
+									<input class="form-check-input" type="radio" name="gridRadios1" id="inputWho1" value="社區住戶"
+										v-model="newNote.who">
 									<label class="form-check-label" for="gridRadios1">
 										A7重劃區社區住戶
 									</label>
 								</div>
 								<div class="form-check">
-									<input class="form-check-input" type="radio" name="gridRadios1" id="inputWho2"
-										value="公司員工" v-model="newNote.who">
+									<input class="form-check-input" type="radio" name="gridRadios1" id="inputWho2" value="公司員工"
+										v-model="newNote.who">
 									<label class="form-check-label" for="gridRadios2">
 										華亞園區公司員工
 									</label>
 								</div>
 								<div class="form-check">
-									<input class="form-check-input" type="radio" name="gridRadios1" id="inputWho3"
-										value="其他人員" v-model="newNote.who">
+									<input class="form-check-input" type="radio" name="gridRadios1" id="inputWho3" value="其他人員"
+										v-model="newNote.who">
 									<label class="form-check-label" for="gridRadios3">
 										其他人員
 									</label>
@@ -192,9 +188,8 @@
 							<div class="col-sm-3">
 								<div class="row justify-content-center">
 									<div class="dropdown">
-										<button class="btn btn-secondary dropdown-toggle" type="button"
-											id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-											aria-expanded="false">
+										<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+											data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 											住戶請選擇
 										</button>
 										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -213,8 +208,8 @@
 
 						<div class="form-group row">
 							<label for="inputPlace" class="col-sm-3 input-group-prepend">發生地點</label>
-							<input type="text" class="col-sm-9 form-control-plaintext" id="inputPlace"
-								v-model="newNote.place" placeholder="請輸入發生地點">
+							<input type="text" class="col-sm-9 form-control-plaintext" id="inputPlace" v-model="newNote.place"
+								placeholder="請輸入發生地點">
 						</div>
 						<!--						
 						<div class="input-group">
@@ -232,8 +227,8 @@
 
 						<div class="form-group row">
 							<label for="inputFrequency" class="col-sm-3 input-group-prepend">發生頻率</label>
-							<input type="text" class="col-sm-9 form-control-plaintext" id="inputFrequency"
-								v-model="newNote.frequency" placeholder="請輸入異味發生的頻率">
+							<input type="text" class="col-sm-9 form-control-plaintext" id="inputFrequency" v-model="newNote.frequency"
+								placeholder="請輸入異味發生的頻率">
 						</div>
 
 						<div class="form-group row">
@@ -246,36 +241,36 @@
 							<label for="inputStrength" class="col-sm-3 input-group-prepend">異味強度</label>
 							<div class="col-sm-9">
 								<div class="form-check">
-									<input class="form-check-input" type="radio" name="gridRadios2" id="inputStrength1"
-										value="S1" v-model="newNote.strength">
+									<input class="form-check-input" type="radio" name="gridRadios2" id="inputStrength1" value="S1"
+										v-model="newNote.strength">
 									<label class="form-check-label" for="gridRadios1">
 										1. 勉強可感知的臭氣
 									</label>
 								</div>
 								<div class="form-check">
-									<input class="form-check-input" type="radio" name="gridRadios2" id="inputStrength2"
-										value="S2" v-model="newNote.strength">
+									<input class="form-check-input" type="radio" name="gridRadios2" id="inputStrength2" value="S2"
+										v-model="newNote.strength">
 									<label class="form-check-label" for="gridRadios2">
 										2. 能認知的弱臭氣
 									</label>
 								</div>
 								<div class="form-check">
-									<input class="form-check-input" type="radio" name="gridRadios2" id="inputStrength3"
-										value="S3" v-model="newNote.strength">
+									<input class="form-check-input" type="radio" name="gridRadios2" id="inputStrength3" value="S3"
+										v-model="newNote.strength">
 									<label class="form-check-label" for="gridRadios3">
 										3. 容易感知的臭氣
 									</label>
 								</div>
 								<div class="form-check">
-									<input class="form-check-input" type="radio" name="gridRadios2" id="inputStrength4"
-										value="S4" v-model="newNote.strength">
+									<input class="form-check-input" type="radio" name="gridRadios2" id="inputStrength4" value="S4"
+										v-model="newNote.strength">
 									<label class="form-check-label" for="gridRadios3">
 										4. 強臭氣
 									</label>
 								</div>
 								<div class="form-check">
-									<input class="form-check-input" type="radio" name="gridRadios2" id="inputStrength5"
-										value="S5" v-model="newNote.strength">
+									<input class="form-check-input" type="radio" name="gridRadios2" id="inputStrength5" value="S5"
+										v-model="newNote.strength">
 									<label class="form-check-label" for="gridRadios3">
 										5. 強烈臭氣
 									</label>
@@ -286,8 +281,7 @@
 
 						<div class="form-group row">
 							<label class="col-12" for="inputSuggestion">其他說明或建議事項</label>
-							<textarea class="form-control" id="inputSuggestion" v-model="newNote.suggestion"
-								rows="3"></textarea>
+							<textarea class="form-control" id="inputSuggestion" v-model="newNote.suggestion" rows="3"></textarea>
 						</div>
 						<br>
 						<button class="btn btn-primary">送出</button>
@@ -404,7 +398,7 @@
 	</article>
 	<!-- InstanceEndEditable -->
 	<footer id="main_footer">
-		<p> A7 新林口 社區網站 2021</p>
+		<p> A7 新林口 社區網站 2023</p>
 	</footer>
 
 	<!-- Vue 的 CDN -->
