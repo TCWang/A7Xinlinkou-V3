@@ -30,7 +30,8 @@ body {
     font-size: 0.8rem;
   }
   body,
-  title {
+  title,
+  nav {
     font-size: 0.9rem;
   }
 }
@@ -48,7 +49,8 @@ body {
     font-size: 0.9rem;
   }
   body,
-  title {
+  title,
+  nav {
     font-size: 0.8rem;
   }
 }
@@ -66,7 +68,8 @@ body {
     font-size: 1rem;
   }
   body,
-  title {
+  title,
+  nav {
     font-size: 1rem;
   }
 }
@@ -84,7 +87,8 @@ body {
     font-size: 1rem;
   }
   body,
-  title {
+  title,
+  nav {
     font-size: 1.1rem;
   }
 }
@@ -102,7 +106,8 @@ body {
     font-size: 1.1rem;
   }
   body,
-  title {
+  title,
+  nav {
     font-size: 1.2rem;
   }
 }
@@ -150,14 +155,6 @@ body {
   color: #fff;
 }
 
-#title-1 {
-  color: #0000cc;
-  font-size: 1.4em;
-}
-#title-2 {
-  color: #0000cc;
-  font-size: 1.2em;
-}
 h1,
 h2,
 h3,
