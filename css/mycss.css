@@ -242,3 +242,10 @@ ul {
 img {
   margin: 0.2rem 0.2rem;
 }
+
+.card-body,
+.card-header,
+.card-text {
+  padding: 0.2rem 0.2rem;
+  margin: 0.2rem 0.2rem;
+}
