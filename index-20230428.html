@@ -953,7 +953,7 @@
                   <h5>天氣觀測站紀錄</h5>
                   <a href="https://e-service.cwb.gov.tw/HistoryDataQuery/">CODiS氣象觀測站</a> 2020年 觀測紀錄,
                   龜山觀測站 設在體育大學運動場。其他北部/東部對照區可自行選擇查閱。
-                  <div id="app2" class="container-fluid">
+                  <div id="app5" class="container-fluid">
                     <div class="alert alert-info mt-2" role="alert">
                       <div class="row">
                         <div class="col">
@@ -1325,7 +1325,7 @@
   <script>
     const posts = []
     const SECTIONS_03 = "Construction"
-    const SECTIONS_02 = "龜山, 林口, 桃園, 新莊, 大園, 宜蘭, 花蓮, 淡水, 汐止, 台北中正區, 台北信義區"
+    const SECTIONS_05 = "龜山, 林口, 桃園, 新莊, 大園, 宜蘭, 花蓮, 淡水, 汐止, 台北中正區, 台北信義區"
 
 
     new Vue({
@@ -1365,11 +1365,11 @@
 
 
     new Vue({
-      el: '#app2',
+      el: '#app5',
       data: {
         posts,
         // results: [],
-        sections: SECTIONS_02.split(', '),
+        sections: SECTIONS_05.split(', '),
         section: '龜山'
       },
       filter: {
