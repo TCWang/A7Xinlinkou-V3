@@ -569,18 +569,12 @@
                         <li>區域立體連通空橋貫通</li>
                         <li>龜山國民運動中心</li>
                       </ol>
-
-
                       <h5> A7地區民眾最期望的十大建設 民意調查 結果 - 2023/03/14</h5>
                       <img src="fig/A7-01-Navigation/XLK-0131-bigten-05.png" alt="A7十大建設民意調查結果" class="img-fluid"
                         style="width:600px"><br><br>
                       居民期望以 交通網絡, 自然環境 及 文化娛樂為主要方向，如下圖<br>
-                      <img src="fig/A7-01-Navigation/XLK-0131-bigten-04.png" alt="A7十大建設民意調查結果" class="img-fluid"
+                      <img src="fig/A7-01-Navigation/XLK-0131-bigten-04.png" alt="A7十大建設民意調查結果" class="img-fluid mb-2"
                         style="width:400px">
-
-                      <br><br>
-
-
                     </div>
 
                     <div class="col-md-6">
@@ -672,76 +666,9 @@
                         <li>協助建立市府行政透明化，有效監督審查公共建設的品質及時程。</li>
                         <li>建立服務網站資訊, 系統化提供問政績效與民眾做直接雙向溝通。</li>
                       </ul>
-
-
                     </div>
                     <hr>
                   </div>
-                  <div class="row">
-                    <div class="col-md-6">
-                      <h5>區域 重大建設 進度管制看板</h5>
-                      請參加 臉書 2023/3月份 對A7重劃區重大建設 票選活動， 提供龜山議員能重點關注的 重大建設 票選！
-                      請議員們能在任期內強化對相關建設進度監督及推動。
-                      <button class="btn btn-info"> <a
-                          href="https://www.facebook.com/groups/a7xinlinkou/permalink/509683904470196/">點我進入
-                          票選</a> </button>
-                      <br><br>
-                      參考資料
-                      <ul>
-                        <li>
-                          桃園市 施政成果透明資訊網 <a href="https://reiso.tycg.gov.tw/governance-progress/12">施政進度-龜山區</a>
-                        </li>
-                        <li>
-                          <a href="https://pcc.mlwmlw.org/">開放標案</a>, &nbsp; 桃園市政府 <a
-                            href="https://gpis.tycg.gov.tw/PwbTycg_Info/Home/BidInfo">採購資訊系統</a>
-                        </li>
-                        <li>
-                          FB 2022/08/13 <a
-                            href="https://www.facebook.com/groups/1951117865015671/permalink/5170683296392429/">A7周邊規畫與現狀</a>
-                        </li>
-                        <li>
-                          A7 新林口 - 社區網站
-                          <ul>
-                            <li>環境 / <a href="https://tcwang.github.io/A7Xinlinkou/A7XLK-11-Community.html#Menu-B5">
-                                社區建案-建設願景</a>, &nbsp
-                              <a
-                                href="https://tcwang.github.io/A7Xinlinkou/A7XLK-13-Transportation.html#Menu-B7">行車交通-未來規劃</a>,
-                            </li>
-                            <li>服務 / <a
-                                href="https://tcwang.github.io/A7Xinlinkou/A7XLK-21-CommunityService.html#Menu-B9">
-                                社區服務-滯洪池改善提案 </a>, &nbsp;
-                              <a
-                                href="https://tcwang.github.io/A7Xinlinkou/A7XLK-21-CommunityService.html#Menu-B10">社區服務-景觀大道改善提案</a>,
-                              &nbsp;
-                              <a
-                                href="https://tcwang.github.io/A7Xinlinkou/A7XLK-23-EnvironmentalProtection.html#Menu-B6">環境保護-A7空污大數據</a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                      A7重劃區重大建設及重大社區改善提案 的進度管控 看板。請所有 網友能提供更新資訊！ 也作為市長/議員/里長 候選人 都能以此為施政/問政的 管控依據。
-                      <br><br>
-                    </div>
-                    <div class="col-md-6">
-
-                      <h5> A7地區民眾最期望的十大建設 民意調查 結果 - 2022/08/17</h5>
-                      <ol>
-                        <li>龜山國民運動中心</li>
-                        <li>文青國中校及幼兒園 建校</li>
-                        <li>增加A7/A8 區域公車路線及北北桃公車優惠方案</li>
-                        <li>龜山樂善公墓遷移</li>
-                        <li>國道1號林口交流道改善工程</li>
-                        <li>A7廣場開發 廣18/19開發案</li>
-                        <li>多功能滯洪池改善建議案</li>
-                        <li>牛角坡路延伸文化一路</li>
-                        <li>新建新型傳統市場</li>
-                        <li>建立空氣盒子有效管制區域空污排放</li>
-                      </ol>
-
-
-                    </div>
-                  </div>
-
 
                   <table class="table table-striped table-sm table-hover" style="width:100%">
                     <thead style="background-color:lightblue">
@@ -753,11 +680,11 @@
                       </tr>
                     </thead>
                     <tbody>
-                      <tr v-for="post in posts">
-                        <td>{{ post.Status}}</td>
-                        <td>{{ post.Item}}</td>
-                        <td style="width:60%"> <span v-html="post.Description"></span> </td>
-                        <td> <a v-bind:href="post.Link">{{post.Id}} </a> </td>
+                      <tr v-for="item in dataList">
+                        <td>{{ item.Status}}</td>
+                        <td>{{ item.Item}}</td>
+                        <td style="width:60%"> <span v-html="item.Description"></span> </td>
+                        <td> <a v-bind:href="item.Link">{{item.Id}} </a> </td>
                       </tr>
                     </tbody>
                   </table>
@@ -1324,41 +1251,19 @@
   <!-- InstanceBeginEditable name="JavaScriptRegion" -->
   <script>
     const posts = []
-    const SECTIONS_03 = "Construction"
+
     const SECTIONS_05 = "龜山, 林口, 桃園, 新莊, 大園, 宜蘭, 花蓮, 淡水, 汐止, 台北中正區, 台北信義區"
 
 
     new Vue({
       el: '#app3',
       data: {
-        posts,
-        // results: [],
-        sections: SECTIONS_03.split(', '),
-        section: 'Construction'
-      },
-      filter: {
-        formatted(value) {
-          return ' 以下是 ${value} 類別的貼文 '
-        }
-      },
-
-      computed: {
-        results() {
-          let posts = this.posts
-            .slice()
-            .filter(post => post.Location === this.section)
-          let i, j, chunkedArray = [], chunk = 100;
-          for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
-            chunkedArray[j] = posts.slice(i, i + chunk);
-          }
-          return chunkedArray
-        }
+        dataList: []
       },
 
       mounted() {
         axios.get('db/A7XLK-1121-Construction.json').then((response) => {
-          this.posts = response.data;
-          this.getPostsByCategory(this.section)
+          this.dataList = response.data;
         }).catch(error => { console.log(error); });
       }
     });
